@@ -37,6 +37,10 @@
           "type": "number"
         },
         {
+          "name": "jumpOriginHeight",
+          "type": "number"
+        },
+        {
           "name": "UP",
           "type": "string"
         },

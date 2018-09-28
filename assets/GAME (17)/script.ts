@@ -22,7 +22,7 @@ namespace Game {
   export let jumpSpeed=0.28;
   export let jumperSpeed=0.7;
   export let accelSpeed=0.006;
-  export let maxSpeed=0.15;
+  export let maxSpeed=0.09;
   export let archiF=0.045;
   
   export let spawns=[{x:19,y:25},{x:10,y:11},{x:30,y:2},{x:39,y:22}];

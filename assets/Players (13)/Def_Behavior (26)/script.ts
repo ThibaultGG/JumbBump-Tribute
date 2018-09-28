@@ -3,6 +3,7 @@ class defBehavior extends Sup.Behavior {
 
   speed = 0;
   jumpSpeed = 0.4;
+  jumpOriginHeight=0;
   solidBodies: Sup.ArcadePhysics2D.Body[] = [];
   playerBodies: Sup.ArcadePhysics2D.Body[] = [];
   liquidBodies: Sup.ArcadePhysics2D.Body[]= [];
@@ -118,7 +119,7 @@ mouvement(velocity: Sup.Math.Vector2){
       // When going right, we clear the flip
       this.actor.spriteRenderer.setHorizontalFlip(false); 
     } else if (!this.touchIce) velocity.x = 0;
-
+    
     // If the player is on the ground and wants to jump,
     // we update the `.y` component accordingly
     if (this.touchSolids || this.touchIce) {
@@ -126,6 +127,7 @@ mouvement(velocity: Sup.Math.Vector2){
       if (Sup.Input.wasKeyJustPressed(this.UP)) {
         velocity.y=this.jumpSpeed;
         this.actor.spriteRenderer.setAnimation("Jump");
+        this.jumpOriginHeight=this.actor.getPosition().y;
         this.isJumping=true;
       } 
       else { // Here, we should play either "Idle" or "Run" depending on the horizontal speed
@@ -137,8 +139,9 @@ mouvement(velocity: Sup.Math.Vector2){
     else {
         if (velocity.y >= 0 ) {
           this.actor.spriteRenderer.setAnimation("Jump");
-          if(this.isJumping && Sup.Input.isKeyDown(this.UP) && !this.isBumping && !this.touchTop){
-            velocity.y+=0.015;    
+          if(this.isJumping && Sup.Input.isKeyDown(this.UP) && !this.isBumping && !this.touchTop && this.actor.getPosition().y < this.jumpOriginHeight+4 ){
+            // velocity.y+=0.015;
+            velocity.y+=0.03;
           } else this.isJumping=false;
         }
         else this.actor.spriteRenderer.setAnimation("Fall");
