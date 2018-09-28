@@ -1,0 +1,272 @@
+{
+  "nextEntryId": 66,
+  "nodes": [
+    {
+      "id": "46",
+      "name": "Font2",
+      "type": "font"
+    },
+    {
+      "id": "47",
+      "name": "MainMenu",
+      "type": null,
+      "children": [
+        {
+          "id": "45",
+          "name": "Scene",
+          "type": "scene"
+        },
+        {
+          "id": "33",
+          "name": "MainBehavior",
+          "type": "script"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Tile Set",
+      "type": "tileSet"
+    },
+    {
+      "id": "10",
+      "name": "Fond",
+      "type": "sprite"
+    },
+    {
+      "id": "6",
+      "name": "Map",
+      "type": "tileMap"
+    },
+    {
+      "id": "0",
+      "name": "MainScene",
+      "type": "scene"
+    },
+    {
+      "id": "32",
+      "name": "TODO",
+      "type": "script"
+    },
+    {
+      "id": "38",
+      "name": "GameManager",
+      "type": "script"
+    },
+    {
+      "id": "17",
+      "name": "GAME",
+      "type": "script"
+    },
+    {
+      "id": "13",
+      "name": "Players",
+      "type": null,
+      "children": [
+        {
+          "id": "26",
+          "name": "Def_Behavior",
+          "type": "script"
+        },
+        {
+          "id": "1",
+          "name": "P1",
+          "type": null,
+          "children": [
+            {
+              "id": "40",
+              "name": "Prefab",
+              "type": "scene"
+            },
+            {
+              "id": "2",
+              "name": "SpriteP1",
+              "type": "sprite"
+            },
+            {
+              "id": "3",
+              "name": "Behavior",
+              "type": "script"
+            }
+          ]
+        },
+        {
+          "id": "7",
+          "name": "P2",
+          "type": null,
+          "children": [
+            {
+              "id": "39",
+              "name": "Prefab",
+              "type": "scene"
+            },
+            {
+              "id": "8",
+              "name": "SpriteP2",
+              "type": "sprite"
+            },
+            {
+              "id": "9",
+              "name": "Behavior",
+              "type": "script"
+            }
+          ]
+        },
+        {
+          "id": "49",
+          "name": "P3",
+          "type": null,
+          "children": [
+            {
+              "id": "58",
+              "name": "Prefab",
+              "type": "scene"
+            },
+            {
+              "id": "56",
+              "name": "SpriteP3",
+              "type": "sprite"
+            },
+            {
+              "id": "54",
+              "name": "Behavior",
+              "type": "script"
+            }
+          ]
+        },
+        {
+          "id": "50",
+          "name": "P4",
+          "type": null,
+          "children": [
+            {
+              "id": "59",
+              "name": "Prefab",
+              "type": "scene"
+            },
+            {
+              "id": "57",
+              "name": "Sprite",
+              "type": "sprite"
+            },
+            {
+              "id": "55",
+              "name": "Behavior",
+              "type": "script"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "FX",
+      "type": null,
+      "children": [
+        {
+          "id": "15",
+          "name": "explosion",
+          "type": "sprite"
+        },
+        {
+          "id": "19",
+          "name": "death",
+          "type": "sound"
+        },
+        {
+          "id": "27",
+          "name": "Explo_Behavior",
+          "type": "script"
+        },
+        {
+          "id": "37",
+          "name": "Gored",
+          "type": null,
+          "children": [
+            {
+              "id": "35",
+              "name": "Gore_prefab",
+              "type": "scene"
+            },
+            {
+              "id": "36",
+              "name": "Gore_beha",
+              "type": "script"
+            },
+            {
+              "id": "41",
+              "name": "Erog",
+              "type": "sprite"
+            }
+          ]
+        },
+        {
+          "id": "42",
+          "name": "Puppet",
+          "type": null,
+          "children": [
+            {
+              "id": "43",
+              "name": "PuppetBehavior",
+              "type": "script"
+            },
+            {
+              "id": "64",
+              "name": "Puppet_Prefab",
+              "type": "scene"
+            },
+            {
+              "id": "44",
+              "name": "Puppet_Sprite",
+              "type": "sprite"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "Clouds",
+      "type": null,
+      "children": [
+        {
+          "id": "24",
+          "name": "bg_Clouds",
+          "type": "script"
+        },
+        {
+          "id": "23",
+          "name": "bg_Clouds_Sprite",
+          "type": "sprite"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "Score",
+      "type": "script"
+    },
+    {
+      "id": "48",
+      "name": "Credits",
+      "type": null,
+      "children": [
+        {
+          "id": "61",
+          "name": "SceneCredit",
+          "type": "scene"
+        },
+        {
+          "id": "63",
+          "name": "ESG",
+          "type": "sound"
+        },
+        {
+          "id": "65",
+          "name": "Script",
+          "type": "script"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,504 @@
+{
+  "history": [
+    {
+      "timestamp": 1455210432627,
+      "author": "MolTe",
+      "text": "Ah d'accord"
+    },
+    {
+      "timestamp": 1455210434365,
+      "author": "MolTe",
+      "text": "c'est bon alors"
+    },
+    {
+      "timestamp": 1455210590970,
+      "author": "Nazolait",
+      "text": "bon"
+    },
+    {
+      "timestamp": 1455210608169,
+      "author": "Nazolait",
+      "text": "faut pas que j'utilise la même méthode pour chequer les plateforme que pour les perso"
+    },
+    {
+      "timestamp": 1455210618812,
+      "author": "Nazolait",
+      "text": "et puis y'a pas de bodybloque"
+    },
+    {
+      "timestamp": 1455210622512,
+      "author": "Nazolait",
+      "text": "bodybloc"
+    },
+    {
+      "timestamp": 1455210629065,
+      "author": "Nazolait",
+      "text": "jbodyblock"
+    },
+    {
+      "timestamp": 1455210629478,
+      "author": "MolTe",
+      "text": "Ouai"
+    },
+    {
+      "timestamp": 1455210634032,
+      "author": "Nazolait",
+      "text": "bodyblock"
+    },
+    {
+      "timestamp": 1455210637783,
+      "author": "Nazolait",
+      "text": "bodyblocking"
+    },
+    {
+      "timestamp": 1455210642410,
+      "author": "MolTe",
+      "text": "haha"
+    },
+    {
+      "timestamp": 1455210643262,
+      "author": "Nazolait",
+      "text": "BodyBlocking"
+    },
+    {
+      "timestamp": 1455210664583,
+      "author": "Nazolait",
+      "text": "et quand je check une collision entre les perso simple, ça fait otut buguer"
+    },
+    {
+      "timestamp": 1455210691285,
+      "author": "Nazolait",
+      "text": "comme les script sont lu l'un apres l'autre, le dernier joueurs pousse les autres"
+    },
+    {
+      "timestamp": 1455210958149,
+      "author": "Nazolait",
+      "text": "je ferais un check avec autre chose que le body"
+    },
+    {
+      "timestamp": 1455210969336,
+      "author": "Nazolait",
+      "text": "juste un truc qui empeche d'avancé quand t'es coller à l'autre"
+    },
+    {
+      "timestamp": 1455211029471,
+      "author": "Nazolait",
+      "text": "je leave"
+    },
+    {
+      "timestamp": 1455211030335,
+      "author": "Nazolait",
+      "text": "aplus"
+    },
+    {
+      "timestamp": 1455211034455,
+      "author": "MolTe",
+      "text": "Ciao"
+    },
+    {
+      "timestamp": 1455290342813,
+      "author": "Nazolait",
+      "text": "BodyBlock OK !"
+    },
+    {
+      "timestamp": 1455290580343,
+      "author": "Nazolait",
+      "text": "ou presque"
+    },
+    {
+      "timestamp": 1455371236985,
+      "author": "Nazolait",
+      "text": "ok pour le frag par en dessous !"
+    },
+    {
+      "timestamp": 1455619924428,
+      "author": "Nazolait",
+      "text": "et les joueurs sont en prefab"
+    },
+    {
+      "timestamp": 1455619945000,
+      "author": "Nazolait",
+      "text": "c'est mieux pour faire plusieurs écran etc"
+    },
+    {
+      "timestamp": 1455619957007,
+      "author": "MolTe",
+      "text": "ok"
+    },
+    {
+      "timestamp": 1455620086125,
+      "author": "Nazolait",
+      "text": "ils sont append a la scene au début"
+    },
+    {
+      "timestamp": 1455620099741,
+      "author": "Nazolait",
+      "text": "et pas dans la startup scene"
+    },
+    {
+      "timestamp": 1455620105742,
+      "author": "Nazolait",
+      "text": "si tu regarde la scene y'a plus les player"
+    },
+    {
+      "timestamp": 1455620148140,
+      "author": "Nazolait",
+      "text": "du cou ple \"Gore\" c'est une fueille pour l'instant ^^'"
+    },
+    {
+      "timestamp": 1457350654205,
+      "author": "MolTe",
+      "text": "Bon, j'ai essayé de faire le menu credit, il veut pas se load..."
+    },
+    {
+      "timestamp": 1457361053905,
+      "author": "MolTe",
+      "text": "j'ai changer les sprite des lapin 1 a 3"
+    },
+    {
+      "timestamp": 1457361066187,
+      "author": "Nazolait",
+      "text": "j'ai vue"
+    },
+    {
+      "timestamp": 1457361070170,
+      "author": "Nazolait",
+      "text": "je suis en train de faire la map"
+    },
+    {
+      "timestamp": 1457361074457,
+      "author": "Nazolait",
+      "text": "ça me soule qu'lele soit moche :p"
+    },
+    {
+      "timestamp": 1457361104415,
+      "author": "MolTe",
+      "text": "On viens de le voir avec Quentin"
+    },
+    {
+      "timestamp": 1457361107065,
+      "author": "MolTe",
+      "text": "c'etait bizarre =p"
+    },
+    {
+      "timestamp": 1457361139539,
+      "author": "MolTe",
+      "text": "Au niveau de la glace a la terre ça bloque"
+    },
+    {
+      "timestamp": 1457361147003,
+      "author": "MolTe",
+      "text": "il faut sauté pour sortir de la glace a droite"
+    },
+    {
+      "timestamp": 1457361691814,
+      "author": "Nazolait",
+      "text": ":o"
+    },
+    {
+      "timestamp": 1457361749351,
+      "author": "Nazolait",
+      "text": "peut être que pour que l'animation du saut soit plus visible on tu faire fretiller la queu"
+    },
+    {
+      "timestamp": 1457361773701,
+      "author": "Nazolait",
+      "text": "lol c'est plus sympa mais du coup 'est des lapin géant !"
+    },
+    {
+      "timestamp": 1457361779150,
+      "author": "Nazolait",
+      "text": "lapin préhitorique quoi"
+    },
+    {
+      "timestamp": 1457361851969,
+      "author": "MolTy",
+      "text": "huhu"
+    },
+    {
+      "timestamp": 1457361894923,
+      "author": "MolTy",
+      "text": "On peut ralentire la vitesse d'animation ou pas?"
+    },
+    {
+      "timestamp": 1457361901354,
+      "author": "Nazolait",
+      "text": "oui"
+    },
+    {
+      "timestamp": 1457361909388,
+      "author": "Nazolait",
+      "text": "faut changer le nombre de frame par seconde"
+    },
+    {
+      "timestamp": 1457361913123,
+      "author": "Nazolait",
+      "text": "c'est a 10 pour l'instant"
+    },
+    {
+      "timestamp": 1457361920692,
+      "author": "MolTy",
+      "text": "Quentin trouve que l'idle est trop rapide et la course trop lente"
+    },
+    {
+      "timestamp": 1457361938477,
+      "author": "Nazolait",
+      "text": "je passe a 8"
+    },
+    {
+      "timestamp": 1457361942853,
+      "author": "Nazolait",
+      "text": "ça donne un effet oldschool"
+    },
+    {
+      "timestamp": 1457362043027,
+      "author": "Nazolait",
+      "text": "ça colle bien epic sax guy avec le lapin qui court :p"
+    },
+    {
+      "timestamp": 1457362087111,
+      "author": "Nazolait",
+      "text": "pour les crédit c'est parce que j'ai pas programmer le bouton pour l'isntant :p"
+    },
+    {
+      "timestamp": 1457362105669,
+      "author": "MolTy",
+      "text": "Je l'avais prog, mais ça lançais plus rien"
+    },
+    {
+      "timestamp": 1457362134316,
+      "author": "Nazolait",
+      "text": "faut traper tout le chemin"
+    },
+    {
+      "timestamp": 1457362143376,
+      "author": "MolTy",
+      "text": "Et meme mettre la scene credit en scene de lancement, la scene loadais pas"
+    },
+    {
+      "timestamp": 1457362146340,
+      "author": "Nazolait",
+      "text": "\"Credits/SceneCredit\""
+    },
+    {
+      "timestamp": 1457362156854,
+      "author": "Nazolait",
+      "text": "c'était noir ou ça loadai pas ?"
+    },
+    {
+      "timestamp": 1457362211137,
+      "author": "MolTy",
+      "text": "hmmm"
+    },
+    {
+      "timestamp": 1457362212225,
+      "author": "MolTy",
+      "text": "Noir"
+    },
+    {
+      "timestamp": 1457362284296,
+      "author": "Nazolait",
+      "text": "c'est un problème avec le chemin alors"
+    },
+    {
+      "timestamp": 1457362291272,
+      "author": "Nazolait",
+      "text": "mais maintenant tu peu drag and drop les assets"
+    },
+    {
+      "timestamp": 1457362303979,
+      "author": "Nazolait",
+      "text": "dans le code directement"
+    },
+    {
+      "timestamp": 1457362310341,
+      "author": "Nazolait",
+      "text": "comme ça plus de problème de recopiaga"
+    },
+    {
+      "timestamp": 1457362316511,
+      "author": "MolTy",
+      "text": "ok"
+    },
+    {
+      "timestamp": 1457362327339,
+      "author": "Nazolait",
+      "text": "bon ça marche toujours pas"
+    },
+    {
+      "timestamp": 1457362340933,
+      "author": "Nazolait",
+      "text": "y'a un erreur"
+    },
+    {
+      "timestamp": 1457362347598,
+      "author": "Nazolait",
+      "text": "tu peux faire F12 pendant que le jeu est lacné"
+    },
+    {
+      "timestamp": 1457362350052,
+      "author": "Nazolait",
+      "text": "lancé"
+    },
+    {
+      "timestamp": 1457362352989,
+      "author": "Nazolait",
+      "text": "pour le debugger"
+    },
+    {
+      "timestamp": 1457362354313,
+      "author": "MolTy",
+      "text": "J'vais fait un petit script \"creditbehave\" pour que sa lance la musique et que quand t'appuie sur ANY a la coupe et revienne au menu"
+    },
+    {
+      "timestamp": 1457362362253,
+      "author": "Nazolait",
+      "text": "ok cool"
+    },
+    {
+      "timestamp": 1457362375216,
+      "author": "MolTy",
+      "text": "Mais du coup le jeu ne se lançais plus du tout, je l'ai viré"
+    },
+    {
+      "timestamp": 1457362377623,
+      "author": "Nazolait",
+      "text": "faut que tu domande a ANY si elle est ok d'abord"
+    },
+    {
+      "timestamp": 1457362421961,
+      "author": "Nazolait",
+      "text": "c'est parce qu'il y a un behavior vide dans ta Camera"
+    },
+    {
+      "timestamp": 1457362437908,
+      "author": "MolTy",
+      "text": "Ouai, c'etait le script credit"
+    },
+    {
+      "timestamp": 1457362445510,
+      "author": "Nazolait",
+      "text": "o"
+    },
+    {
+      "timestamp": 1457362481149,
+      "author": "Nazolait",
+      "text": "voilà les crédit marche"
+    },
+    {
+      "timestamp": 1457362483482,
+      "author": "Nazolait",
+      "text": "enfin s'affiche"
+    },
+    {
+      "timestamp": 1457362487404,
+      "author": "Nazolait",
+      "text": "et apres t'es bloqué dedans :op"
+    },
+    {
+      "timestamp": 1457362711468,
+      "author": "Nazolait",
+      "text": "pour l'animation de saut aussi tu peux faire bouger les jambes genre en moulinet"
+    },
+    {
+      "timestamp": 1457362733895,
+      "author": "Nazolait",
+      "text": "mais le problème c'est quon risque de voir trop souvent que le debut de l'animatio"
+    },
+    {
+      "timestamp": 1457362982865,
+      "author": "Georges",
+      "text": "Yo à si ça marche"
+    },
+    {
+      "timestamp": 1457362996330,
+      "author": "Nazolait",
+      "text": ":D"
+    },
+    {
+      "timestamp": 1457363011922,
+      "author": "Nazolait",
+      "text": "c'est le fleche pour le joueur 1 et ZQD pour le deuxieme"
+    },
+    {
+      "timestamp": 1457363017494,
+      "author": "MolTy",
+      "text": "pour les animations, Quentin vien de proposé, ajouté des valeur quand le saut est lancé et pendant que cette valeur est a tant, telle animation se lance"
+    },
+    {
+      "timestamp": 1457363048792,
+      "author": "MolTy",
+      "text": "pour faire une animation de début, milieu et fin de saut"
+    },
+    {
+      "timestamp": 1457363234331,
+      "author": "MolTy",
+      "text": "Et il faudrait qu'on passe derrière les liane, herbe et un arbre aussi!"
+    },
+    {
+      "timestamp": 1457363614379,
+      "author": "Nazolait",
+      "text": "qui est ce qui casse tout le decor ?"
+    },
+    {
+      "timestamp": 1457363668141,
+      "author": "Nazolait",
+      "text": "faut selectionenr la bonne layer en bas"
+    },
+    {
+      "timestamp": 1457363694957,
+      "author": "Nazolait",
+      "text": "la collision faut y mettre que des cases marron ou bleu"
+    },
+    {
+      "timestamp": 1457363700797,
+      "author": "Nazolait",
+      "text": "pour le solide et la galce"
+    },
+    {
+      "timestamp": 1457385599636,
+      "author": "Ders",
+      "text": "jai fait une petite maj pour les sprite, accélération à 14f/s et amélioration idle"
+    },
+    {
+      "timestamp": 1457395587574,
+      "author": "Ders",
+      "text": "ajout sprite dead sur lapin blanc player 1. l'animation beta est là si tu veu l'essayer"
+    },
+    {
+      "timestamp": 1457438970388,
+      "author": "Ders",
+      "text": "animation death terminée et exporté sur les trois players"
+    },
+    {
+      "timestamp": 1479219736869,
+      "author": "nazolait",
+      "text": "c'est quand même cool d'avoir enfin fini le code. c'est en plan depuis le 08 mars !"
+    },
+    {
+      "timestamp": 1479219755916,
+      "author": "nazolait",
+      "text": "j'aimai pas me dire que c'était pas fini et que ça risquait de ne jamais l'être ..."
+    },
+    {
+      "timestamp": 1479220784254,
+      "author": "ders",
+      "text": "^^"
+    },
+    {
+      "timestamp": 1479220852800,
+      "author": "ders",
+      "text": "les lapin glissent un peu trop sur la terre "
+    },
+    {
+      "timestamp": 1479223065924,
+      "author": "nazolait",
+      "text": "c'est pas évident a régler comme problème :("
+    },
+    {
+      "timestamp": 1479223483414,
+      "author": "nazolait",
+      "text": "ah non pas tan que ça !"
+    }
+  ]
+}

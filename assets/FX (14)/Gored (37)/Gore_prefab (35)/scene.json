@@ -1,0 +1,79 @@
+{
+  "formatVersion": 1,
+  "nodes": [
+    {
+      "id": "1",
+      "name": "Gore",
+      "children": [],
+      "components": [
+        {
+          "type": "ArcadeBody2D",
+          "config": {
+            "type": "box",
+            "movable": true,
+            "width": 0.5,
+            "height": 0.5,
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "tileMapAssetId": null,
+            "tileSetPropertyName": null,
+            "layersIndex": null,
+            "formatVersion": 2,
+            "bounce": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "id": "0"
+        },
+        {
+          "type": "SpriteRenderer",
+          "config": {
+            "spriteAssetId": "41",
+            "animationId": null,
+            "horizontalFlip": false,
+            "verticalFlip": false,
+            "castShadow": false,
+            "receiveShadow": false,
+            "color": "ffffff",
+            "overrideOpacity": false,
+            "opacity": null,
+            "materialType": "basic",
+            "shaderAssetId": null,
+            "formatVersion": 1
+          },
+          "id": "1"
+        },
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "GoreBehavior",
+            "propertyValues": {}
+          },
+          "id": "2"
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 9
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    }
+  ]
+}

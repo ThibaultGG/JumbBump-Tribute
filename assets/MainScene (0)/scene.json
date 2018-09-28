@@ -1,0 +1,887 @@
+{
+  "formatVersion": 1,
+  "nodes": [
+    {
+      "id": "0",
+      "name": "Camera",
+      "children": [],
+      "components": [
+        {
+          "type": "Camera",
+          "config": {
+            "mode": "orthographic",
+            "fov": 45,
+            "orthographicScale": 32,
+            "viewport": {
+              "x": 0,
+              "y": 0,
+              "width": 1,
+              "height": 1
+            },
+            "depth": 0,
+            "nearClippingPlane": 0.1,
+            "farClippingPlane": 1000,
+            "formatVersion": 1
+          },
+          "id": "0"
+        },
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "GameManagerBehavior",
+            "propertyValues": {}
+          },
+          "id": "1"
+        }
+      ],
+      "position": {
+        "x": 21,
+        "y": 16,
+        "z": 10
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "1",
+      "name": "Back",
+      "children": [
+        {
+          "id": "12",
+          "name": "bg_Clouds_1",
+          "children": [],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "spriteAssetId": "23",
+                "animationId": null,
+                "horizontalFlip": false,
+                "verticalFlip": false,
+                "castShadow": false,
+                "receiveShadow": false,
+                "color": "ffffff",
+                "overrideOpacity": false,
+                "opacity": null,
+                "materialType": "basic",
+                "shaderAssetId": null,
+                "formatVersion": 1
+              },
+              "id": "0"
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "bgCloudsBehavior",
+                "propertyValues": {}
+              },
+              "id": "1"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": -1
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "13",
+          "name": "bg_Clouds_2",
+          "children": [],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "spriteAssetId": "23",
+                "animationId": null,
+                "horizontalFlip": false,
+                "verticalFlip": false,
+                "castShadow": false,
+                "receiveShadow": false,
+                "color": "ffffff",
+                "overrideOpacity": false,
+                "opacity": null,
+                "materialType": "basic",
+                "shaderAssetId": null,
+                "formatVersion": 1
+              },
+              "id": "0"
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "bgCloudsBehavior",
+                "propertyValues": {}
+              },
+              "id": "1"
+            }
+          ],
+          "position": {
+            "x": -25,
+            "y": 0,
+            "z": -1
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        }
+      ],
+      "components": [
+        {
+          "type": "SpriteRenderer",
+          "config": {
+            "spriteAssetId": "10",
+            "animationId": null,
+            "horizontalFlip": false,
+            "verticalFlip": false,
+            "castShadow": false,
+            "receiveShadow": false,
+            "color": "ffffff",
+            "overrideOpacity": false,
+            "opacity": null,
+            "materialType": "basic",
+            "shaderAssetId": null,
+            "formatVersion": 1
+          },
+          "id": "1"
+        }
+      ],
+      "position": {
+        "x": 21,
+        "y": 16,
+        "z": -15
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1.6,
+        "y": 1.7,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "4",
+      "name": "Solids",
+      "children": [
+        {
+          "id": "5",
+          "name": "Map",
+          "children": [],
+          "components": [
+            {
+              "type": "ArcadeBody2D",
+              "config": {
+                "type": "tileMap",
+                "movable": true,
+                "width": 1,
+                "height": 1,
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "tileMapAssetId": "6",
+                "tileSetPropertyName": "Solid",
+                "layersIndex": null,
+                "formatVersion": 2,
+                "bounce": {
+                  "x": 0,
+                  "y": 0
+                }
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        }
+      ],
+      "components": [
+        {
+          "type": "TileMapRenderer",
+          "config": {
+            "tileMapAssetId": "6",
+            "tileSetAssetId": null,
+            "castShadow": false,
+            "receiveShadow": false,
+            "materialType": "basic",
+            "shaderAssetId": null,
+            "formatVersion": 1
+          },
+          "id": "0"
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "29",
+      "name": "Liquid",
+      "children": [
+        {
+          "id": "28",
+          "name": "Flotte",
+          "children": [],
+          "components": [
+            {
+              "type": "ArcadeBody2D",
+              "config": {
+                "type": "box",
+                "movable": false,
+                "width": 10,
+                "height": 3,
+                "offset": {
+                  "x": 5,
+                  "y": -1.5
+                },
+                "tileMapAssetId": "6",
+                "tileSetPropertyName": "Liquid",
+                "layersIndex": "0",
+                "formatVersion": 2,
+                "bounce": {
+                  "x": 0,
+                  "y": 0
+                }
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 7,
+            "y": 4,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        }
+      ],
+      "components": [],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "39",
+      "name": "Glace",
+      "children": [
+        {
+          "id": "40",
+          "name": "body",
+          "children": [],
+          "components": [
+            {
+              "type": "ArcadeBody2D",
+              "config": {
+                "type": "tileMap",
+                "movable": true,
+                "width": 1,
+                "height": 1,
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "tileMapAssetId": "6",
+                "tileSetPropertyName": "Ice",
+                "layersIndex": null,
+                "formatVersion": 2,
+                "bounce": {
+                  "x": 0,
+                  "y": 0
+                }
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        }
+      ],
+      "components": [],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "32",
+      "name": "Jumper",
+      "children": [
+        {
+          "id": "33",
+          "name": "ressort",
+          "children": [],
+          "components": [
+            {
+              "type": "ArcadeBody2D",
+              "config": {
+                "type": "tileMap",
+                "movable": false,
+                "width": 10,
+                "height": 3,
+                "offset": {
+                  "x": 5,
+                  "y": -1.5
+                },
+                "tileMapAssetId": "6",
+                "tileSetPropertyName": "Jumper",
+                "layersIndex": "0",
+                "formatVersion": 2,
+                "bounce": {
+                  "x": 0,
+                  "y": 0
+                }
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        }
+      ],
+      "components": [],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "18",
+      "name": "Score",
+      "children": [
+        {
+          "id": "16",
+          "name": "p1score",
+          "children": [
+            {
+              "id": "19",
+              "name": "teuté",
+              "children": [],
+              "components": [
+                {
+                  "type": "SpriteRenderer",
+                  "config": {
+                    "spriteAssetId": "2",
+                    "animationId": "0",
+                    "horizontalFlip": false,
+                    "verticalFlip": false,
+                    "castShadow": false,
+                    "receiveShadow": false,
+                    "color": "ffffff",
+                    "overrideOpacity": false,
+                    "opacity": null,
+                    "materialType": "basic",
+                    "shaderAssetId": null,
+                    "formatVersion": 1
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": 1,
+                "y": 2.129,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefab": null
+            }
+          ],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "fontAssetId": "46",
+                "text": "0",
+                "alignment": "left",
+                "size": null,
+                "color": null,
+                "verticalAlignment": "center",
+                "formatVersion": 2,
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": -0.5,
+            "y": 6.583,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "17",
+          "name": "p2score",
+          "children": [
+            {
+              "id": "20",
+              "name": "teuté",
+              "children": [],
+              "components": [
+                {
+                  "type": "SpriteRenderer",
+                  "config": {
+                    "spriteAssetId": "8",
+                    "animationId": "0",
+                    "horizontalFlip": false,
+                    "verticalFlip": false,
+                    "castShadow": false,
+                    "receiveShadow": false,
+                    "color": "ffffff",
+                    "overrideOpacity": false,
+                    "opacity": null,
+                    "materialType": "basic",
+                    "shaderAssetId": null,
+                    "formatVersion": 1
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": 1,
+                "y": 2.129,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefab": null
+            }
+          ],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "fontAssetId": "46",
+                "text": "0",
+                "alignment": "left",
+                "size": null,
+                "color": null,
+                "verticalAlignment": "center",
+                "formatVersion": 2,
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": -0.5,
+            "y": -0.441,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "34",
+          "name": "p3score",
+          "children": [
+            {
+              "id": "35",
+              "name": "teuté",
+              "children": [],
+              "components": [
+                {
+                  "type": "SpriteRenderer",
+                  "config": {
+                    "spriteAssetId": "56",
+                    "animationId": "0",
+                    "horizontalFlip": false,
+                    "verticalFlip": false,
+                    "castShadow": false,
+                    "receiveShadow": false,
+                    "color": "ffffff",
+                    "overrideOpacity": false,
+                    "opacity": null,
+                    "materialType": "basic",
+                    "shaderAssetId": null,
+                    "formatVersion": 1
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": 1,
+                "y": 2.186,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefab": null
+            }
+          ],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "fontAssetId": "46",
+                "text": "0",
+                "alignment": "left",
+                "size": null,
+                "color": null,
+                "verticalAlignment": "center",
+                "formatVersion": 2,
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": -0.5,
+            "y": -7.516,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "36",
+          "name": "p4score",
+          "children": [
+            {
+              "id": "37",
+              "name": "teuté",
+              "children": [],
+              "components": [
+                {
+                  "type": "SpriteRenderer",
+                  "config": {
+                    "spriteAssetId": "57",
+                    "animationId": "0",
+                    "horizontalFlip": false,
+                    "verticalFlip": false,
+                    "castShadow": false,
+                    "receiveShadow": false,
+                    "color": "ffffff",
+                    "overrideOpacity": false,
+                    "opacity": null,
+                    "materialType": "basic",
+                    "shaderAssetId": null,
+                    "formatVersion": 1
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": 1,
+                "y": 1.828,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefab": null
+            }
+          ],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "fontAssetId": "46",
+                "text": "0",
+                "alignment": "left",
+                "size": null,
+                "color": null,
+                "verticalAlignment": "center",
+                "formatVersion": 2,
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": -0.5,
+            "y": -14.297,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        }
+      ],
+      "components": [],
+      "position": {
+        "x": 2.4784319400787354,
+        "y": 18.67621612548828,
+        "z": 9
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "behaviors": {
+    "P2Behavior": {
+      "scriptId": "9",
+      "line": 1,
+      "parentBehavior": "defBehavior",
+      "properties": []
+    },
+    "P1Behavior": {
+      "scriptId": "3",
+      "line": 1,
+      "parentBehavior": "defBehavior",
+      "properties": []
+    },
+    "bgCloudsBehavior": {
+      "scriptId": "24",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "speed",
+          "type": "number"
+        }
+      ]
+    },
+    "defBehavior": {
+      "scriptId": "26",
+      "line": 1,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "speed",
+          "type": "number"
+        },
+        {
+          "name": "jumpSpeed",
+          "type": "number"
+        },
+        {
+          "name": "UP",
+          "type": "string"
+        },
+        {
+          "name": "DOWN",
+          "type": "string"
+        },
+        {
+          "name": "RIGHT",
+          "type": "string"
+        },
+        {
+          "name": "LEFT",
+          "type": "string"
+        },
+        {
+          "name": "points",
+          "type": "number"
+        },
+        {
+          "name": "isBumping",
+          "type": "boolean"
+        },
+        {
+          "name": "isJumping",
+          "type": "boolean"
+        },
+        {
+          "name": "isDying",
+          "type": "boolean"
+        },
+        {
+          "name": "touchSolids",
+          "type": "boolean"
+        },
+        {
+          "name": "touchTop",
+          "type": "boolean"
+        },
+        {
+          "name": "touchIce",
+          "type": "boolean"
+        }
+      ]
+    },
+    "ExplosionBehavior": {
+      "scriptId": "27",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "ScoreBehavior": {
+      "scriptId": "30",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "GoreBehavior": {
+      "scriptId": "36",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "GameManagerBehavior": {
+      "scriptId": "38",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "PuppetBehavior": {
+      "scriptId": "43",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "MainMenuBehavior": {
+      "scriptId": "33",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "buttonIndex",
+          "type": "number"
+        },
+        {
+          "name": "nbPlayers",
+          "type": "number"
+        }
+      ]
+    },
+    "P3Behavior": {
+      "scriptId": "54",
+      "line": 2,
+      "parentBehavior": "defBehavior",
+      "properties": []
+    },
+    "P4Behavior": {
+      "scriptId": "55",
+      "line": 2,
+      "parentBehavior": "defBehavior",
+      "properties": []
+    },
+    "ScriptBehavior": {
+      "scriptId": "65",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    }
+  }
+}

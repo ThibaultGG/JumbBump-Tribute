@@ -1,0 +1,30 @@
+{
+  "formatVersion": 1,
+  "grid": {
+    "width": 32,
+    "height": 32
+  },
+  "tileProperties": {
+    "3_4": {
+      "Solid": "solid"
+    },
+    "4_4": {
+      "Ice": "ice"
+    },
+    "14_3": {
+      "Jumper": ""
+    },
+    "12_0": {
+      "Ice": "ice"
+    },
+    "13_0": {
+      "Ice": "ice"
+    },
+    "14_0": {
+      "Ice": "ice"
+    },
+    "15_0": {
+      "Ice": "ice"
+    }
+  }
+}
