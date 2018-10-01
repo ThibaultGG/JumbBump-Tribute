@@ -1,5 +1,4 @@
-
-class defBehavior extends Sup.Behavior {
+class GamepadBehavior extends Sup.Behavior {
 
   speed = 0;
   jumpSpeed = 0.4;
@@ -46,6 +45,7 @@ class defBehavior extends Sup.Behavior {
     this.isBumping=false;
     this.isJumping=false;
     this.isDying=false;
+    this.respawn(this.actor.arcadeBody2D);
   }
 
   update() {  //On check en premier les mouvements voulu par le joueurs et on applique ensuite les restrictions
@@ -217,4 +217,4 @@ mouvement(velocity: Sup.Math.Vector2){
     return velocity;  
   }
 }
-Sup.registerBehavior(defBehavior);
+Sup.registerBehavior(GamepadBehavior);

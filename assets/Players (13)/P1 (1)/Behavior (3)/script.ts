@@ -9,6 +9,7 @@ class P1Behavior extends defBehavior {
     this.points=0;
     this.scoreCounter=Sup.getActor("p1score").textRenderer;
     this.skin=this.actor.spriteRenderer.getSprite();
+    this.actor.arcadeBody2D.warpPosition(Game.spawns[0]['x'],Game.spawns[0]['y']);
   }
 }
 Sup.registerBehavior(P1Behavior);

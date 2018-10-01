@@ -8,6 +8,7 @@ class P2Behavior extends defBehavior {
     this.RIGHT=Game.p2RIGHT;
     this.points=0;
     this.scoreCounter=Sup.getActor("p2score").textRenderer;
+    this.actor.arcadeBody2D.warpPosition(Game.spawns[1]['x'],Game.spawns[1]['y']);
   }
 }
 Sup.registerBehavior(P2Behavior);

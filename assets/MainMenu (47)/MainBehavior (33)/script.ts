@@ -41,7 +41,7 @@ class MainMenuBehavior extends Sup.Behavior {
   activateButton(){
     switch (this.buttonIndex){
       case 0:
-          Game.start();
+          Game.start(this.nbPlayers);
           break;
       case 2:
         Sup.loadScene("Credits/SceneCredit");

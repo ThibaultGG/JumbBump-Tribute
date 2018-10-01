@@ -133,7 +133,7 @@
     },
     "P3Behavior": {
       "scriptId": "54",
-      "line": 2,
+      "line": 1,
       "parentBehavior": "defBehavior",
       "properties": []
     },
